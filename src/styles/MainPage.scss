@@ -1,0 +1,29 @@
+@import "../variables/Variables.scss";
+
+// @mixin buttonStyle {
+//     width: 50px;
+//     height: 40px;
+//     border: none;
+//     background-color: $white;
+//     border-radius: 9px;
+//     color: $yellow;
+// }
+
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+    h1 {
+        color:$yellow;
+    }
+
+    button {
+        @include buttonStyle(green,15px);
+    }
+
+    
+    button {
+        @include buttonStyle(green,15px);
+    }
+}

@@ -1,0 +1,55 @@
+
+.nav-div{
+  height: 60px;
+  background-color: rgb(244, 88, 88);
+  padding: 40px;
+}
+
+.nav-div{
+  height: 50px;
+  background-color: rgb(244, 88, 96);
+  padding: 40px;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 3vh;
+  background-color: rgb(95, 6, 168);
+  color:white;
+}
+.nav-links {
+  width:50%;
+  display:flex;
+  color: rgb(49, 12, 150);
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.form {
+ display: grid;
+ grid-template: 40px 40px /1fr 1fr ;
+ gap: 17px
+}
+.form--button {
+ grid-column: 3 / -3;
+}
+input,textarea {
+ margin-bottom: 15px;
+ height: 30px;
+ text-indent: 10px;
+ border: 1px solid #444;
+ border-radius: 5px;
+ display: block;
+}
+
+.loginPage{
+  background-color: blue;
+  margin: 0 auto;
+  margin-top: 80px;
+   width: 170px; 
+   height: 500px; 
+   text-align: center; 
+}
+ 
